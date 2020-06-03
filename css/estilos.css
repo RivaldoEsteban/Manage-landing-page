@@ -1,9 +1,8 @@
 body {
-  border: 1px solid red;
   font-size: 16px;
   font-family: "Be Vietnam", sans-serif;
   padding: 0;
-  margin: 50px;
+  margin: auto;
 }
 .wrapper {
   max-width: 1400px;
@@ -11,22 +10,161 @@ body {
 }
 
 .header {
+  margin: 50px 150px 100px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.header img {
+  width: 148px;
+  height: 35px;
+  margin-top: 18px;
 }
 .header-text {
   display: flex;
   text-align: center;
+  margin: auto;
+}
+.header button {
+  padding: 5px 40px;
+  border-radius: 41px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border: 0;
 }
 .header-text p {
   padding: 0 20px;
 }
 .hero {
   display: flex;
+
+  margin: 0 150px 100px;
+}
+.hero-content {
+  width: 50%;
+}
+.hero-content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  max-width: 500px;
+}
+.hero-content p {
+  max-width: 350px;
+}
+.hero-content button {
+  padding: 20px 40px;
+  border-radius: 41px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
 }
 .manage {
   display: flex;
+  margin: 0 150px 100px;
+}
+.administrator {
+  width: 50%;
+}
+.administrator h2 {
+  font-size: 38px;
+  max-width: 500px;
+  margin-top: 0;
+}
+.administrator p {
+  max-width: 350px;
 }
 .manage-right {
   display: flex;
+  width: 50%;
+}
+.atributes-1 {
+  display: flex;
+}
+.atributes-1 button {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 19px;
+  border-radius: 18px;
+  border: 0;
+  background: hsl(12, 88%, 59%);
+  color: white;
+  font-size: 15px;
+}
+.atributes-1 p {
+  max-width: 440px;
+}
+.atributes-2 {
+  display: flex;
+}
+.atributes-2 button {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 19px;
+  border-radius: 18px;
+  border: 0;
+  background: hsl(12, 88%, 59%);
+  color: white;
+  font-size: 15px;
+}
+.atributes-2 p {
+  max-width: 440px;
+}
+.atributes-3 {
+  display: flex;
+}
+.atributes-3 button {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 19px;
+  border-radius: 18px;
+  border: 0;
+  background: hsl(12, 88%, 59%);
+  color: white;
+  font-size: 15px;
+}
+.atributes-3 p {
+  max-width: 440px;
+}
+.testimonio-title {
+  margin: auto;
+  display: block;
+  width: 210px;
+}
+.testimonio-container {
+  display: flex;
+  text-align: center;
+  scroll-snap-type: x mandatory;
+}
+.caja {
+  padding: 40px 20px;
+  margin: 30px;
+  scroll-snap-align: center;
+}
+.caja img {
+  width: 80px;
+  position: relative;
+  top: 50px;
+}
+.caja-content {
+  border: 1px solid;
+  height: 200px;
+  margin: auto;
+  width: 500px;
+  padding-top: 40px;
+  height: 180px;
+}
+.caja-content p {
+  width: 450px;
+  margin: auto;
+}
+.testimonio-button {
+  display: block;
+  margin: 50px auto;
+  width: 88px;
 }
