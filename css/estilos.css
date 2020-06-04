@@ -8,7 +8,15 @@ body {
   max-width: 1400px;
   margin: auto;
 }
-
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(228, 39%, 23%);
+}
+p {
+  color: hsl(227, 12%, 61%);
+}
 .header {
   margin: 50px 150px 100px;
   display: flex;
@@ -18,7 +26,7 @@ body {
 }
 .header img {
   width: 148px;
-  height: 35px;
+  height: 30px;
   margin-top: 18px;
 }
 .header-text {
@@ -26,19 +34,23 @@ body {
   text-align: center;
   margin: auto;
 }
-.header button {
-  padding: 5px 40px;
-  border-radius: 41px;
-  background-color: hsl(12, 88%, 59%);
+.header-button {
+  border: 1px solid;
+  height: 20px;
+  text-decoration: none;
   color: white;
-  border: 0;
+  background: hsl(12, 88%, 59%);
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 13.33px;
 }
-.header-text p {
+.header-text a {
   padding: 0 20px;
+  text-decoration: none;
+  color: hsl(228, 39%, 23%);
 }
 .hero {
   display: flex;
-
   margin: 0 150px 100px;
 }
 .hero-content {
@@ -51,15 +63,16 @@ body {
 }
 .hero-content p {
   max-width: 350px;
+  margin-bottom: 50px;
 }
-.hero-content button {
-  padding: 20px 40px;
-  border-radius: 41px;
-  background-color: hsl(12, 88%, 59%);
+.hero-content a {
+  border: 1px solid;
+  height: 20px;
+  text-decoration: none;
   color: white;
-  border: 0;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 30px;
+  background: hsl(12, 88%, 59%);
+  padding: 10px 30px;
+  border-radius: 20px;
 }
 .manage {
   display: flex;
@@ -134,7 +147,8 @@ body {
 .testimonio-title {
   margin: auto;
   display: block;
-  width: 210px;
+  width: 260px;
+  font-size: 20px;
 }
 .testimonio-container {
   display: flex;
@@ -152,19 +166,85 @@ body {
   top: 50px;
 }
 .caja-content {
-  border: 1px solid;
   height: 200px;
   margin: auto;
   width: 500px;
   padding-top: 40px;
   height: 180px;
+  background: hsl(0, 0%, 98%);
 }
 .caja-content p {
   width: 450px;
   margin: auto;
 }
-.testimonio-button {
+
+.testimonio-button a {
   display: block;
   margin: 50px auto;
   width: 88px;
+  border: 1px solid;
+  height: 20px;
+  text-decoration: none;
+  color: white;
+  background: hsl(12, 88%, 59%);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.footer-top {
+  background: hsl(12, 88%, 59%);
+}
+.top {
+  margin: auto 150px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.top h2 {
+  margin: auto 0;
+  font-size: 38px;
+  width: 450px;
+  color: white;
+}
+.top a {
+  width: 88px;
+
+  height: 20px;
+  text-decoration: none;
+  color: hsl(12, 88%, 59%);
+  background: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: auto 0;
+}
+.footer-buttom {
+  background: hsl(233, 12%, 13%);
+}
+.buttom {
+  margin: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.buttom p {
+  color: white;
+  margin-top: 0;
+}
+.fab {
+  color: white;
+  margin: 0 5px;
+  margin-top: 95px;
+}
+.buttom input {
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: 0;
+  text-align: left;
+  margin-right: 10px;
+}
+.buttom a {
+  padding: 13px 20px;
+  background: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
 }
